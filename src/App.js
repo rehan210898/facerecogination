@@ -155,7 +155,7 @@ class App extends Component {
           <Register routeChange={this.onRouteChange} />
         ) : (
           <div>
-            <Logo />
+           
             <ImageLinkForm
               onSearchChange={this.onSearchChange}
               onButtonClick={this.onButtonClick}
