@@ -43,22 +43,7 @@ class App extends Component {
     this.setState({ searchfield: event.target.value });
   };
   faceBox = (data) => {
-    const imagePosition = JSON.parse(function simpleStringify (data){
-    var simpleObject = {};
-    for (var prop in object ){
-        if (!object.hasOwnProperty(prop)){
-            continue;
-        }
-        if (typeof(object[prop]) == 'object'){
-            continue;
-        }
-        if (typeof(object[prop]) == 'function'){
-            continue;
-        }
-        simpleObject[prop] = object[prop];
-    }
-    return JSON.stringify(simpleObject); // returns cleaned up JSON
-};).outputs[0].data.regions;
+    const imagePosition = JSON.parse(data).outputs[0].data.regions;
     const image = document.getElementById("image");
     return imagePosition;
   };
