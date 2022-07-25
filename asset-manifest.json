@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/facerecogination/static/css/main.6a17a4ce.chunk.css",
-    "main.js": "/facerecogination/static/js/main.09cfca5c.chunk.js",
-    "main.js.map": "/facerecogination/static/js/main.09cfca5c.chunk.js.map",
+    "main.js": "/facerecogination/static/js/main.e42c7905.chunk.js",
+    "main.js.map": "/facerecogination/static/js/main.e42c7905.chunk.js.map",
     "runtime-main.js": "/facerecogination/static/js/runtime-main.724595f8.js",
     "runtime-main.js.map": "/facerecogination/static/js/runtime-main.724595f8.js.map",
     "static/css/2.75261d94.chunk.css": "/facerecogination/static/css/2.75261d94.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.75261d94.chunk.css",
     "static/js/2.e63efd95.chunk.js",
     "static/css/main.6a17a4ce.chunk.css",
-    "static/js/main.09cfca5c.chunk.js"
+    "static/js/main.e42c7905.chunk.js"
   ]
 }
