@@ -3,6 +3,7 @@ import './Frame.css';
 import Box from "../box/Box";
 
 const Frame = ({ url,box }) => {
+  console.log(url);
   return (
     <div className='center ma'>
   <div className='absolute mt2'>

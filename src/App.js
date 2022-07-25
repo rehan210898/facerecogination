@@ -51,9 +51,9 @@ class App extends Component {
     this.setState({ boxes: boxes });
   };
 
-  onButtonClick = (searchfield) => {
-    this.setState({ url: searchfield });
-    if (searchfield) {
+  onButtonClick = () => {
+    this.setState({ url: this.state.searchfield });
+    if (this.state.searchfield) {
       const raw = JSON.stringify({
         user_app_id: {
           user_id: USER_ID,
@@ -63,7 +63,7 @@ class App extends Component {
           {
             data: {
               image: {
-                url: searchfield,
+                url: this.state.searchfield
               },
             },
           },
@@ -78,7 +78,7 @@ class App extends Component {
         },
         body: raw,
       };
-
+      console.log(this.state.searchfield)
       fetch(
         "https://api.clarifai.com/v2/models/" +
           MODEL_ID +
